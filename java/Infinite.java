@@ -1,18 +1,20 @@
+
+// Write an infinite loop using do while condition.
 class Infinite {
-    
-    public static void Go(){
-        int num=1;
-        do{
-            System.out.println("number is : " + num );
+
+    public static void Go() {
+        int num = 1;
+        do {
+            System.out.println("number is : " + num);
             num++;
-        }while(true);
-        
+        } while (true);
+
     }
-    
-    public static void main (String [] args){
-        
+
+    public static void main(String[] args) {
+
         Go();
-        
+
     }
-    
+
 }
