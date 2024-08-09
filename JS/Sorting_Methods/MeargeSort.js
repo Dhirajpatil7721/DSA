@@ -30,52 +30,7 @@ let merge = (arr, l, r) => {
 
 
 
-    if (l < r) {
-        // console.log("i am in 1 if");
-
-
-
-        // first Merge Sort
-        let mergesort = (arr, l, mid) => {
-            // console.log("i am in 1 merge");
-
-            if (l < mid) {
-                
-                
-                
-            }
-
-            // while(l<mid){
-
-            //     l++
-            // }
-
-        }
-        mergesort(arr, l, mid)
-
-
-
-
-        // second Merge Sort     
-        mergesort = (arr, midpluse, r) => {
-
-            if (midpluse < r) {
-                // console.log("im in 3 if");
-            }
-
-        }
-        mergesort(arr, midpluse, r)
-
-        let merge = () => {
-
-
-        }
-
-
-
-
-    }
-
+    
 
 }
 
