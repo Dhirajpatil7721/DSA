@@ -10,9 +10,9 @@ function bsort() {
             }
         }
     }
-    console.log(arr)
+    return (arr)
 }
-bsort()
+console.log(bsort())
 
 
 

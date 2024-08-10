@@ -2,7 +2,7 @@ let array1 = [1,2,3,4,5];
 let array2 = [6,7,8,9];
 let array3=[10 ,11,12 ];
 
-let Concate = (a1,a2,a3) => {
+function Concate  (a1,a2,a3)  {
   
 
 for(i=0;i<a2.length;i++){

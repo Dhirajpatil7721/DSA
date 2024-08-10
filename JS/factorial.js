@@ -27,23 +27,15 @@
 
 
 function facto(num) {
-    // let  result = num;
     if (num < 2) {
-        
-        console.log("Your Factorial is");
-
+        console.log("Your Factorial is 1"); // Base case: factorial of 1 or 0 is 1
+        return 1;
+    } else {
+        return num * facto(num - 1); // Recursive case: num * factorial of num-1
     }
-    else {
-
-        // facto(result = result * result - 1)
-        facto(num * num - 1)
-num--
-
-    }
-    
-    
-    console.log(num);
 }
-facto(5)
+
+console.log(facto(5)); // Output: 120
+
 
 

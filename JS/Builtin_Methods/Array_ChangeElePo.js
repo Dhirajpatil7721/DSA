@@ -3,7 +3,7 @@ let array = [13, 8, 66, 7, 45, 9, 31]
 
 // Shift the Position of the Element in array.
 
-let Shifter = (po, val, arr) => {
+function Shifter  (po, val, arr)  {
 
     for (let i = arr.length - 1; i >= 0; i--) {
 

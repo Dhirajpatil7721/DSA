@@ -1,6 +1,6 @@
-let num=[1, 2, 3, 2, 4, 5, 6, 7, 8, 9, 9, 4, 5, 7, 6, 2, 2, 5,3]
-let ev=[]
-let odd=[]
+let num = [1, 2, 3, 2, 4, 5, 6, 7, 8, 9, 9, 4, 5, 7, 6, 2, 2, 5, 3]
+let ev = []
+let odd = []
 
 // for(i=0;i<num.length; i++){
 
@@ -15,26 +15,26 @@ let odd=[]
 // console.log(ev);
 // console.log(odd);
 
-cal = (ar)=>{
+function cal(ar) {
 
-for(i=0;i<ar.length;i++){
+    for (i = 0; i < ar.length; i++) {
 
-    if(ar[i] % 2 ===0){
-        ev.push(ar[i])
+        if (ar[i] % 2 === 0) {
+            ev.push(ar[i])
+        }
+        else {
+            odd.push(ar[i])
+        }
+
+
     }
-    else{
-        odd.push(ar[i])
-    }
+    // return{ 
+    // "Even =" : {ev},  
+    // "odd=" : {odd}
+    // }
 
-
-}
-// return{ 
-// "Even =" : {ev},  
-// "odd=" : {odd}
-// }
-
-console.log(ev);
-console.log(odd);
+    return (ev);
+    // return (odd);
 }
 
-cal(num)
+console.log(cal(num))

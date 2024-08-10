@@ -7,8 +7,8 @@ function push(arr, item) {
     let myarr = arr.length;
 
     arr[myarr] = item
-    console.log(arr);
+    return (arr);
 }
 
-push(array, ad)
+console.log(push(array, ad))
 
